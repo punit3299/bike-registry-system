@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit {
         return true;
       },
         error => {
-          return Observable.throw(error);
+          console.log(error)
         }
       )
     }
